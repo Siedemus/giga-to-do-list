@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/giga-to-do-list/static/css/main.ed90e4af.css",
+    "main.js": "/giga-to-do-list/static/js/main.096c6e13.js",
+    "static/js/787.74a7cb81.chunk.js": "/giga-to-do-list/static/js/787.74a7cb81.chunk.js",
+    "index.html": "/giga-to-do-list/index.html",
+    "main.ed90e4af.css.map": "/giga-to-do-list/static/css/main.ed90e4af.css.map",
+    "main.096c6e13.js.map": "/giga-to-do-list/static/js/main.096c6e13.js.map",
+    "787.74a7cb81.chunk.js.map": "/giga-to-do-list/static/js/787.74a7cb81.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed90e4af.css",
+    "static/js/main.096c6e13.js"
+  ]
+}
