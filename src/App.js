@@ -36,6 +36,10 @@ function App() {
     })));
   };
 
+  const toggleHideDone = () => {
+    setHideDone(hideDone => !hideDone)
+  };
+
   return (
     <div className="App">
       <Header />
@@ -49,6 +53,7 @@ function App() {
             tasks={tasks}
             hideDone={hideDone}
             setAllDone={setAllDone}
+            toggleHideDone={toggleHideDone}
           />}
         />}
         tasksList={<Tasks
