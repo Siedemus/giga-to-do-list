@@ -11,7 +11,7 @@ const tasks = [
   { id: 2, content: "Zjeść śniadanie", done: true },
 ];
 
-const toggleHideDone = false;
+const hideDone = false;
 
 function App() {
   return (
@@ -25,10 +25,10 @@ function App() {
         container={<Container
           buttons={<Buttons
             tasks={tasks}
-            hideDone={toggleHideDone}
+            hideDone={hideDone}
           />}
         />}
-        tasksList={<Tasks tasks={tasks} hideDone={toggleHideDone} />}
+        tasksList={<Tasks tasks={tasks} hideDone={hideDone} />}
       />
     </div>
   );
