@@ -25,6 +25,10 @@ function App() {
     }))
   };
 
+  const removeTask = (id) => {
+    setTasks(tasks => tasks.filter(task => task.id !== id))
+  };
+
   return (
     <div className="App">
       <Header />
@@ -43,6 +47,7 @@ function App() {
           tasks={tasks}
           hideDone={hideDone}
           toggleTaskDone={toggleTaskDone}
+          removeTask={removeTask}
         />}
       />
     </div>
